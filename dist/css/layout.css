@@ -1,0 +1,96 @@
+.navbar-1 {
+  background-color: #000;
+  color: #FB9E09;
+  height: 50px; }
+  .navbar-1 ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    padding-right: 40px; }
+    .navbar-1 ul li {
+      display: inline;
+      padding: 10px 25px; }
+    .navbar-1 ul li:hover {
+      background-color: #FB9E09;
+      color: black;
+      cursor: pointer; }
+
+.boton {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  background-color: white;
+  border: 1px solid #FB9E09;
+  margin-bottom: 5px;
+  border-radius: 5px; }
+
+.boton:hover {
+  background-color: #FB9E09;
+  color: white; }
+
+#slider {
+  margin-top: 45px; }
+
+.container h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 2.8rem;
+  color: #7C7D83; }
+
+.mas-jugados .card:hover, .analisis .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%); }
+
+.mas-jugados .card-title, .analisis .card-title {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1.8rem; }
+
+.guias h3 {
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 15px; }
+
+.guias h3:hover {
+  color: #FB9E09;
+  cursor: pointer; }
+
+.guias .row {
+  margin-bottom: 50px; }
+
+footer {
+  background-color: #000;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  footer h4 {
+    text-align: center;
+    color: white; }
+    footer h4 span {
+      color: #FB9E09; }
+  footer p {
+    color: #F0C55C; }
+  footer h5 {
+    text-align: center;
+    color: #FB9E09; }
+  footer .text-center h6 {
+    color: #FB9E09; }
+  footer .col-sm-2 h6 {
+    color: white;
+    margin-top: 15px; }
+  footer .col-sm-2 h6:hover {
+    color: #FB9E09;
+    cursor: pointer; }
+
+.redes-sociales {
+  margin-top: 35px;
+  margin-bottom: 25px; }
+  .redes-sociales img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }

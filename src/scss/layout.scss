@@ -23,6 +23,15 @@
              cursor: pointer;
          }
     }
+
+    .menu-hamburguesa{
+       display: none;
+       margin: 0;
+    }
+
+    #check{
+        display: none;
+    }
 }
 
 .boton{
@@ -71,6 +80,22 @@
         margin-top: 25px;
         font-size: 1.8rem;
     }
+}
+
+.ultimas-noticias{
+
+    .inner{
+        overflow: hidden;
+
+        img{
+            transition: all 1.5s ease;
+        }
+    }
+
+    .inner:hover img {
+        transform: scale(1.5);
+    }
+
 }
 
 
@@ -149,3 +174,42 @@ footer{
        
     }
 }
+
+
+@media only screen and (max-width: 996px) {
+
+    .navbar-1{
+        ul{
+            // width: 100%;
+            // background-color: $negro;
+            display: none;
+            // li{
+            //     display: block;
+            //     text-align: center;
+            // }
+        }
+
+        .menu-hamburguesa{
+            display: block;
+            float: right;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 10px;
+            padding-right: 15px;
+            cursor: pointer;
+        }
+
+        #check:checked + ul.top-nav {
+            display: block;
+            width: 100%;
+            background-color: $negro;
+            li{
+                display: block;
+                text-align: center;
+            }
+            
+        }
+        
+    }
+
+  }

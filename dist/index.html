@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8bc3d272fc.js" crossorigin="anonymous"></script>
     <title>Guate Gaming</title>
 </head>
 <body>
 
     <div class="navbar-1">
-        <ul>
+        <label for="check" class="menu-hamburguesa">
+            <i class="fas fa-bars "></i>
+        </label>
+        <input type="checkbox" id="check">
+        <ul class="top-nav">
             <li>Noticias</li>
             <li>Reseñas</li>
             <li>Guias</li>
@@ -19,9 +24,7 @@
         </ul>
     </div>
 
-    <div>
-        <img src="./img/guate.png" class="img-fluid" alt="Responsive image">
-    </div>
+        <img src="./img/guate.png" class="img-fluid" alt="Responsive image">    
 
     <div class="container">
 
@@ -85,10 +88,12 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="card">
-                        <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                        <div class="inner">
+                            <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h5 class="card-title">Epic Games vs Apple</h5>
+                          <p class="card-text">El juego ha sido retirado de la App Store de Apple, dejando a los usuarios de iOS y macOS sin poder actualizar a la muy esperada temporada 4. Sin embargo, este problema va mucho más allá de una simple disputa dentro del videojuego</p>
                           <button class="boton"> Leer </button>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -96,10 +101,12 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
-                        <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                        <div class="inner">
+                            <img src="img/GothamKnights.jpg" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h5 class="card-title">Gotham Knights</h5>
+                          <p class="card-text">El juego se desarrollará en Ciudad Gótica, pero en esta ocasión, Batman no será el protagonista ya que está muerto. Será turno de Batgirl, Robin, Nightwing y Red Hood; para convertirse en los nuevos héroes.</p>
                           <button class="boton"> Leer </button>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -109,10 +116,12 @@
             <div class="row" style="margin-top: 35px;">
                 <div class="col-sm-6">
                     <div class="card">
-                        <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                        <div class="inner">
+                            <img src="img/squad.jpg" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h5 class="card-title">Suicide Squad: Kill the Justice League</h5>
+                          <p class="card-text">llega en 2022 y saldrá solo para la nueva generación de consolas (PC, PS5 y Xbox Series X). Se ambienta en el mismo universo que la saga Batman: Arkham (incluso continúa su historia), pero no tiene lugar en Gotham, sino en la ciudad de Metrópolis.</p>
                           <button class="boton"> Leer </button>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -120,10 +129,13 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="card">
-                        <img src="img/noticia1.jpg" class="card-img-top" alt="...">
+                        <div class="inner">
+                            <img src="img/cod1.jpg" class="card-img-top" alt="...">
+                        </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <h5 class="card-title">Call of Duty Black Ops Cold War</h5>
+                          <p class="card-text">Es la entrega del FPS bélico de Activision en 2020. Se trata de un desarrollo conjunto de varios estudios.
+                               Raven Software es responsable de la campaña y Beenox ha trabajado en la versión de PC. Está ambientado durante la Guerra Fría</p>
                           <button class="boton"> Leer </button>
                           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
@@ -196,6 +208,16 @@
                     <img src="img/world.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="img/cod2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="col-sm-4">
+                    <h3> Guía de Call of Duty: Modern Warfare, trucos, consejos y secretos </h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptates accusamus aperiam voluptatem non cupiditate, incidunt doloremque atque veritatis numquam voluptatibus blanditiis ea commodi facilis.</p>
+                    <button class="boton"> Leer </button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -212,7 +234,7 @@
             </div>
             <div class="col-sm-4">
                 <h4>Contacto</h4>
-                <h5>concato@guategamin.com</h5>
+                <h5>contacto@guategamin.com</h5>
             </div>
         </div>
 

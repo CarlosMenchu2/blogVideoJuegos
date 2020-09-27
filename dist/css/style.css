@@ -16,6 +16,11 @@
       background-color: #FB9E09;
       color: black;
       cursor: pointer; }
+  .navbar-1 .menu-hamburguesa {
+    display: none;
+    margin: 0; }
+  .navbar-1 #check {
+    display: none; }
 
 .boton {
   text-decoration: none;
@@ -49,6 +54,14 @@
   text-align: center;
   margin-top: 25px;
   font-size: 1.8rem; }
+
+.ultimas-noticias .inner {
+  overflow: hidden; }
+  .ultimas-noticias .inner img {
+    transition: all 1.5s ease; }
+
+.ultimas-noticias .inner:hover img {
+  transform: scale(1.5); }
 
 .guias h3 {
   font-size: 2.2rem;
@@ -94,3 +107,22 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto; }
+
+@media only screen and (max-width: 996px) {
+  .navbar-1 ul {
+    display: none; }
+  .navbar-1 .menu-hamburguesa {
+    display: block;
+    float: right;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 15px;
+    cursor: pointer; }
+  .navbar-1 #check:checked + ul.top-nav {
+    display: block;
+    width: 100%;
+    background-color: #000; }
+    .navbar-1 #check:checked + ul.top-nav li {
+      display: block;
+      text-align: center; } }
